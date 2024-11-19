@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIANGDEPZAI</title>
+    <style>
+        /* Reset mặc định */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #3a4ae3;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product {
+            flex: 1 1 calc(33.333% - 20px);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #fff;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product-details {
+            padding: 15px;
+            text-align: center;
+        }
+        .product-details h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .product-details p {
+            color: #666;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+        .product-details .price {
+            font-size: 1.2rem;
+            color: #2473e2;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .product-details button {
+            background-color: #eacb1b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .product-details button:hover {
+            background-color: #4426c8;
+        }
+        footer {
+            background-color: #b1e31a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>GIANGDEPZAI.COM</h1>
+        <p>Khăn chỉ bán cho sinh viên Sư Phạm Toán K23</p>
+    </header>
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Sản phẩm</a>
+        <a href="#">Liên hệ</a>
+        <a href="#">Giới thiệu</a>
+    </nav>
+    <!-- Main content -->
+    <div class="container">
+        <h2>Danh mục sản phẩm</h2>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="c:\Users\ADMIN\Downloads\z4267762114965_90707bc4a3394237c5ad2c5a99131d2d_9101652c45604fbe9705e06e4e6b69ee_master.jpg" alt="Khăn Lụa">
+                <div class="product-details">
+                    <h2>Khăn Lụa Cao Cấp</h2>
+                    <p>Chất liệu lụa mềm mại, sang trọng (hơi đắt xíu thôi)</p>
+                    <div class="price">2 tỷ 9 VNĐ</div>
+                    <button>Thêm vào giỏ</button>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="c:\Users\ADMIN\Downloads\images (3).jpg" alt="Khăn Len">
+                <div class="product-details">
+                    <h2>Khăn Len Ấm Áp</h2>
+                    <p>Phù hợp cho mùa đông giá lạnh.Tặng người yêu là hết nước chấm </p>
+                    <div class="price">70,000,000 VNĐ</div>
+                    <button>Thêm vào giỏ</button>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="c:\Users\ADMIN\Downloads\images (2).jpg" alt="Khăn Cotton">
+                <div class="product-details">
+                    <h2>Khăn Cotton Mềm Mại</h2>
+                    <p>Thấm hút tốt, dễ giặt.</p>
+                    <div class="price">900,000 VNĐ</div>
+                    <button>Thêm vào giỏ</button>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="product">
+                <img src="c:\Users\ADMIN\Downloads\z6031220536876_d337483a651dd6cc567a4f5d3fd3e840.jpg" alt="Khăn Thổ Cẩm Hmong">
+                <div class="product-details">
+                    <h2>Khăn Thổ Cẩm Hmong</h2>
+                    <p>Thấm hút tốt, dễ giặt,hoa văn sắc xảo</p>
+                    <div class="price">100,000,000 VNĐ</div>
+                    <button>Thêm vào giỏ</button>
+                </div>
+        </div>
+        <!-- Product 5 -->
+        <div class="product">
+            <img src="c:\Users\ADMIN\Downloads\z5997047837124_690ca12d22b4a284a23bc751d119ae89-removebg-preview.png" alt=" Vòng Cổ Hmong">
+            <div class="product-details">
+                <h2>Vòng Cổ Hmong</h2>
+                <p>Nguyên chất, đeo là ghiền</p>
+                <div class="price">2,000,000,000 VNĐ</div>
+                <button>Thêm vào giỏ</button>
+            </div>
+    </div>
+    </div
+    <!-- Giỏ hàng -->
+    <div id="cart">
+        <h2>Giỏ hàng</h2>
+        <ul id="cart-items">
+            <li>Giỏ hàng hiện đang trống.</li>
+        </ul>
+        <p><strong>Tổng cộng:</strong> <span id="cart-total">0</span> VNĐ</p>
+    </div>
+</div>
+</body>
+<script>
+// Lưu trữ giỏ hàng
+const cart = [];
+
+// Thêm sản phẩm vào giỏ
+document.querySelectorAll('.add-to-cart').forEach(button => {
+    button.addEventListener('click', () => {
+        const name = button.dataset.name;
+        const price = parseInt(button.dataset.price);
+        
+        // Kiểm tra nếu sản phẩm đã tồn tại
+        const existingProduct = cart.find(item => item.name === name);
+        if (existingProduct) {
+            existingProduct.quantity++;
+        } else {
+            cart.push({ name, price, quantity: 1 });
+        }
+        updateCart();
+    });
+});
+
+// Cập nhật giao diện giỏ hàng
+function updateCart() {
+    const cartItems = document.getElementById('cart-items');
+    const cartTotal = document.getElementById('cart-total');
+    
+    // Xóa nội dung cũ
+    cartItems.innerHTML = '';
+    
+    if (cart.length === 0) {
+        cartItems.innerHTML = '<li>Giỏ hàng hiện đang trống.</li>';
+    } else {
+        let total = 0;
+        cart.forEach(item => {
+            total += item.price * item.quantity;
+            cartItems.innerHTML += `<li>${item.name} - ${item.quantity} x ${item.price.toLocaleString()} VNĐ</li>`;
+        });
+        cartTotal.textContent = total.toLocaleString();
+    }
+}
+</script>
+</html>
+<div id="cart">
+    <h2>Giỏ hàng</h2>
+    <ul id="cart-items">
+        <li>Giỏ hàng hiện đang trống.</li>
+    </ul>
+    <p><strong>Tổng cộng:</strong> <span id="cart-total">0</span> VNĐ</p>
+</div>
